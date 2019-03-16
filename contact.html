@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- หัวข้อบนสุดกดลิ้งไปหน้าอื่น -->
+ <table style="width : 80%" align="center">
+        <tr>
+                <th><a href="home.html">Home</a></th>
+                <th><a href="gallery.html">Gallery</a></th>
+                <th><a href="contact.html">Contact</a></th>
+        </tr>
+    </table>
+
+      <!-- กรอบใส่ชื่อ/เมล/เบอร์ -->
+    <table style="width : 80%; padding: 15px; border: 1px solid black;" align="center">
+        <tr><td><b>
+                <img src="/images/soih.jpg" alt="Soih" style="float:right;width:180px;height:220px;">
+                <h1>Gunyapat Pongkanta</h1>
+                Web Developer<br>
+                <a href="mailto:gunyapat_p@cmu.ac.th">gunyapat_p@cmu.ac.th</a> <br>
+                (+66) - 625-939398
+        </td></tr></b>
+    </table><br>    
+    <style>
+        
+        td {
+          font-size: 110%;
+        }
+        th{
+          font-size: 140%;
+        }        
+    </style>
+
+        <form action="contact">
+                <table style="width : 80%; padding: 15px; border: 1px solid black;" align="center">
+                   
+                    <tr>
+                        <td><h4><label>Subject:</label></h4></td>
+                        <td><input type="text" name="subject" value="" width="60px"> </td>
+                    </tr>
+                    <tr>
+                        <td><h4> <label>Massage:</label></h4></td>
+                        <td> <textarea name="massage" ></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td><h4><label>Name:</label></h4></td>
+                        <td><input type="text" name = "name" value=""> </td>
+                    </tr>
+                    <tr>
+
+                        <td><h4><label>Gender:</label></h4></td>
+                        <td>
+                            <input type="radio" name = "gender" value="male">male 
+                            <input type="radio" name = "gender" value="female">female 
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><h4><label>Phone:</label></h4></td>
+                        <td><input type="tel" name = "phone" value=""></td>
+                    </tr>
+
+                    <tr>
+                        <td><h4><label>Email:</label></h4></td>
+                        <td><input type="email" value=""></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="submit" value="submit"></td>
+                        </tr>
+        
+                    </form>
+                </table>
+
+        <footer align="center">
+                <tr>Gunyapat Pongkanta &mdash; <a href="mailto:gunyapat_p@cmu.ac.th">gunyapat_p@cmu.ac.th</a> &mdash; (+66) - 625-939398</tr>
+        </footer>
+
+</body>
+</html>
